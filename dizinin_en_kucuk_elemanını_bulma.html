@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dizinin En Küçük Elemanını Bulma</title>
+</head>
+<body>
+    <script>
+      var sayi1, sayi2, sayi3, sayi4, enKucuk;
+      sayi1=Number(prompt("Lütfen ilk sayıyı giriniz!")); 
+      sayi2=Number(prompt("Lütfen ikinci sayıyı giriniz!")); 
+      sayi3=Number(prompt("Lütfen üçüncü sayıyı giriniz!")); 
+      sayi4=Number(prompt("Lütfen dördüncü sayıyı giriniz!")); 
+        if (sayi1 < sayi2) {
+            enKucuk = sayi1
+        } else { 
+            enKucuk=sayi2
+        }
+        if (enKucuk > sayi3) {
+            enKucuk = sayi3
+        }
+        else if ( enKucuk > sayi4) {
+            enKucuk = sayi4
+        }
+        alert(enKucuk);
+    </script>
+  
+
+</body>
+</html>
