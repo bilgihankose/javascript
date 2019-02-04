@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Girilen Sayı Kadar Üçgen</title>
+</head>
+
+<body>
+    <script>
+        var rows = prompt("Kaç satırlı olsun?"); //Kullanıcının satır bilgisini değişkene atar.
+        for (var i = rows; i--;) { // i diye bir değişken tanımla, bu değişkeni girilen sayıya eşitle ve bir bir azalt.
+            var columns = 0; 
+            while (columns <= i) { 
+                document.write('#'); // satır sayısını 0 a eşitlediğimiz için i değerine gelene kadar # yaz.
+                columns++ 
+            }
+            document.write("<br />\n"); //columns sayısı i'ye eşitlendiğinde alt satıra in, ve for döngüsünü baştan başlat.
+        }
+    </script>
+</body>
+
+</html>
