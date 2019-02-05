@@ -35,5 +35,5 @@ const people = [
 ];
 
 for(let i = 0; i < people.length; i++){
-  console.log(people[i].name); //burada for döngüsüyle dizideki tüm name tanımlamalarını tek tek getiriyor.
-}
+  console.log(people[i].name); //burada for döngüsüyle dizideki tüm name tanımlamalarını tek tek getiriyor. Tek tek dizinin tüm elemanlarını döndürmek için forEaach'te kullanılabilir.
+} 
