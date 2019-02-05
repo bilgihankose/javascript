@@ -46,16 +46,16 @@ val = firstName.substring(0, 4);
 
 // slice()
 val = firstName.slice(0,4);
-val = firstName.slice(-3);
+val = firstName.slice(-3); // negatif değer verilirse örneğin -3 sondan üç harfi alır. slice ve substring çok benzer.
 
 // split()
 val = str.split(' ');
-val = tags.split(',');
+val = tags.split(','); //commayla ayrılanları arraye çeviriyor.
 
 // replace()
-val = str.replace('Brad', 'Jack');
+val = str.replace('Brad', 'Jack'); //Brad gördüğün yere Jack yaz.
 
 // includes()
-val = str.includes('foo');
+val = str.includes('foo'); //içeriyor mu içermiyor mu true ya da false döndürür.
 
 console.log(val);
